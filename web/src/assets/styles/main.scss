@@ -1,0 +1,32 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.container {
+ position: relative;
+}
+
+.modalByHand {
+  width: 100%;
+  z-index: 99;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background: #00000046;
+}
+
+.modal-hide {
+  display: none;
+}
+
+.modal-dialog {
+  width: 100%;
+}
